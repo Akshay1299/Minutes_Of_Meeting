@@ -69,6 +69,27 @@ Django, a high-level Python web framework, is chosen for its emphasis on reusabi
 
 Django's ORM simplifies interactions with databases, automatically transferring data between databases and objects.
 
+## Getting Started
+
+To set up and run the IIITL Fee Portal on your local machine, follow these steps:
+
+1. **Clone the Repository**:
+   ```shell
+   git clone <https://github.com/Akshay1299/Minutes_Of_Meeting/tree/main>
+2. **Install Dependencies Frontend (React)**:
+   ```shell
+   cd frontend
+   npm install
+3. **Configure Environment Variables**:
+   Set up the necessary environment variables, including MongoDB and Firebase configurations.
+4. **Database Setup**:
+   Create the required database and collections in MongoDB and set up Firebase for secure authentication and storage.
+5. **Run the Application**:
+   ```shell
+   node app.js
+6. **Access the Portal**:
+   Open your web browser and visit http://localhost:3000 to access the IIITL Fee Portal.
+
 ## Conclusion
 
 Minutes to Meeting offers a comprehensive solution for improving virtual meetings, providing real-time transcription, multilingual summaries, and accessibility options. The project leverages a robust tech stack and the features of Django to ensure efficiency and reusability.
