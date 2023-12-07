@@ -115,6 +115,10 @@ To set up and run the Minutes_Of_Meetings on your local machine, follow these st
     ```
 
 6. **Load the Extension**
+   i) Open Chrome.
+   ii) Go to chrome://extensions/.
+   iii) Enable "Developer mode" in the top right.
+   iv) Click "Load unpacked" and select the extension directory in the project.
    
 
 ## Conclusion
