@@ -71,24 +71,51 @@ Django's ORM simplifies interactions with databases, automatically transferring 
 
 ## Getting Started
 
-To set up and run the IIITL Fee Portal on your local machine, follow these steps:
+To set up and run the Minutes_Of_Meetings on your local machine, follow these steps:
 
 1. **Clone the Repository**:
-   ```shell
-   git clone <https://github.com/Akshay1299/Minutes_Of_Meeting/tree/main>
+
+    ```shell
+    git clone https://github.com/Akshay1299/Minutes_Of_Meeting.git
+    ```
+
 2. **Install Dependencies Frontend (React)**:
-   ```shell
-   cd frontend
-   npm install
-3. **Configure Environment Variables**:
-   Set up the necessary environment variables, including MongoDB and Firebase configurations.
+
+    ```shell
+    cd frontend
+    npm install
+    ```
+
+3. **Install Dependencies Backend (Django)**:
+
+    ```shell
+    cd backend
+    pip install -r requirements.txt
+    ```
+
 4. **Database Setup**:
-   Create the required database and collections in MongoDB and set up Firebase for secure authentication and storage.
+   - Create a database in SQL.
+   - Update the database configuration in backend/settings.py.
+
 5. **Run the Application**:
-   ```shell
-   node app.js
-6. **Access the Portal**:
-   Open your web browser and visit http://localhost:3000 to access the IIITL Fee Portal.
+
+    Frontend (React)
+
+    ```shell
+    cd frontend
+    npm start
+    ```
+
+    Backend (Django)
+
+    ```shell
+    cd backend
+    python manage.py migrate
+    python manage.py runserver
+    ```
+
+6. **Load the Extension**
+   
 
 ## Conclusion
 
