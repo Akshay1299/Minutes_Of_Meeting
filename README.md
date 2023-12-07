@@ -114,11 +114,14 @@ To set up and run the Minutes_Of_Meetings on your local machine, follow these st
     python manage.py runserver
     ```
 
-6. **Load the Extension**
-   i) Open Chrome.
-   ii) Go to chrome://extensions/.
-   iii) Enable "Developer mode" in the top right.
-   iv) Click "Load unpacked" and select the extension directory in the project.
+6. ## Load the Extension
+
+To use the Chrome extension, follow these steps:
+
+1. Open Chrome.
+2. Go to [chrome://extensions/](chrome://extensions/).
+3. Enable "Developer mode" in the top right.
+4. Click "Load unpacked" and select the extension directory in the project.
    
 
 ## Conclusion
